@@ -1,12 +1,12 @@
 // how to declare a variable using let ad const
-cost fatherName = 'Munir';
+const fatherName = 'Munir';
 let season = 'rainy';
 season = 'winter';
 
 
 // 2.conditions
 // condition 6 basic condition >, < , ===, !== , <= , >=
-// multiple conditions : && || 
+// multiple conditions : && , || 
 
 if(fatherName === 'Munir' || season ==='rainy'){
 
@@ -25,7 +25,7 @@ const numbers = [ 89, 35, 98, 12];
 numbers[0] = 56 ;
 
 // 4.for loop
-for(let i = 0 , i < numbers.length, i++){
+for(let i = 0 ; i < numbers.length; i++){
     const number = numbers[i]
     console.log(number);
 }
@@ -37,7 +37,7 @@ for(let i = 0 , i < numbers.length, i++){
     const output =multiply(35, 78);
 
     //6. OBJECT
-    // 3 ways to  access
+    // 3 ways to  access property by name 
     const student = {
         name : 'sakib khan',
         age : 32,
