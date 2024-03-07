@@ -22,9 +22,9 @@ if(money > 100){
 }else{
     food = 'cha biscuit'}
 // ternary
-let food1 =money>100? 'biriany' : 'chabiscuit';
+let food1 =money>100? 'biriany' : 'cha biscuit';
 console.log(food1);
-let drink =(money >100 &myVar >100) 'coke' : 'filter pani';
+let drink =(money >100 && myVar >100)? 'coke' : 'filter pani';
 console.log(drink);
 
 // number to string conversion 
@@ -42,7 +42,7 @@ let isActive = true;
 const showUser = () => console.log('display user');
 const hideUser = () => console.log('hide user');
 
-// isActive? showUser() : hideUser();
+isActive? showUser() : hideUser();
 // use && if the left side is true then right side will e executed 
 
 isActive && showUser();

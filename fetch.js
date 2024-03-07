@@ -1,4 +1,4 @@
-// 1.json =stringify . parse
+// 1.JSON =stringify . parse
 
 
 const student = {
